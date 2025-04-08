@@ -16,3 +16,12 @@ TROUBLESHOOTING- It took me a while to get the Bootstrap features to work becaus
 
 JAVASCRIPT
 
+1. First function checks to see is the username entered has at least 8 characters.
+
+2. 2nd function also requires HTML, however I was just trying to follow the logic and I got some help from stack overflow. The idea is to add another user to the table after they have entered their information. 
+
+3. Third function ensures there is no spaces in a password entered by using the trim() method to remove any spaces in the password entered.
+
+4. Fourth function is designed to Alert the user when they complete signup. It uses a Template Literal to turn my name variable into a string.
+
+5. Fifth function checks the users age using an if..else statement and logs a different message.

@@ -27,4 +27,19 @@ function validatePassword(password){
 }
 console.log(validatePassword("  crazyglue88  ")); //Output "crazyglue88"
 
-//Function 4 - 
+//Function 4 - Alert user with Template Literal when new user signs up
+function alertNewUser(name){
+    return alert("Hello, ${name}! Welcome to Reddit!");
+}
+
+//Function 5 - Makes sure new user is old enough to sign up
+function checkAge(age){
+    if (age < 13){
+        console.log('Sorry, you are too young')
+    } else {
+        console.log('Congrats, you are signed up for Reddit!')
+    };
+
+    return age;
+    
+}
